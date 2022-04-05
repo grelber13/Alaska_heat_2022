@@ -10,6 +10,8 @@ This repository provides R code that was used for analysis of Alaska weather and
 
 This was a case-crossover study to detect associations between elevated heat (as measured by heat index) and cardiorespiratory- and heat illness-related emergency department visits. The three largest population centers in Alaska were included in this study: Anchorage, Matanuska-Susitna Valley, and Fairbanks. Emergency department data were obtained from the Alaska Health Facilities Data Reporting Program for 2015-2019. Temperature and relative humidity data were obtained from the NOAA ASOS monitoring network, and each study site was assigned a daily heat index calculated from these two measurements during the summer months (June-August) for 2015-2019. Daily PM2.5 concentrations for each study site were included as a covariate in all models; these data were obtained from the Alaska Department of Environmental Conservation. 
 
+![](https://github.com/grelber13/Alaska_heat_2022/AK_map.jpeg?raw=true)
+
 For each emergency department visit that occurred within the study sites during the summer months of 2015-2019 that had a primary diagnosis indicative of a cardiorespiratory or heat illness event, patient age, sex, and race was available. The day on which the health event occurred was a case day, for which control days were sampled by selecting the same day of the week from every other week during the summer season of the same year.
 
 ### Threshold analysis
