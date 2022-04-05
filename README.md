@@ -28,8 +28,9 @@ The second approach was to evaluate the effect of an ongoing heatwave. For this 
 
 Available in the **/raw_data/** folder are the following files:
 1. **daily_88101_0819_NCORE_Garden_Parkgate_Butte.xlsx** - this Excel spreadsheet contains daily PM2.5 data from the Alaska Department of Environmental Conservation.
-2. **ipopdd2015v9_2019v1_ichs.txt** - this text file contains hospitalization data provided by the Alaska Health Facilities Data Reporting Program.
-3. **hospital.txt** - this text file has metadata for hospitals across Alaska
+2. **hospital.txt** - this text file has metadata for hospitals across Alaska
+
+Data request can be submitted to the Alaska Health Facilities Data Reporting Program [here](https://dhss.alaska.gov/dph/VitalStats/Pages/HFDR/default.aspx#:~:text=The%20Alaska%20Health%20Facilities%20Data,and%20the%20Alaska%20Outpatient%20Database.).
 
 ## Scripts
 
