@@ -16,11 +16,11 @@ For each emergency department visit that occurred within the study sites during 
 
 ### Threshold analysis
 
-To identify potential temperature threshold for associated health risks in Alaska, temperature thresholds were set at 2-degree intervals from 70-90 deg. Fahrenheit. For each threshold, a binary variable was created to indicate if the heat index on a single day was above or below the threshold. Conditional logistic regression models were fit for each cardiorespiratory and heat illness outcome, with the heat index threhold indicator variable as the exposure. These models were repeated for all thresholds. Also, the study population was stratified by age group, sex, and race to identify potential differences by sociodemographic factors.
+To identify potential temperature thresholds for associated health risks in Alaska, temperature thresholds were set at 2-degree intervals from 70-90 deg. Fahrenheit. For each threshold, a binary variable was created to indicate if the heat index on a single day was above or below the threshold. Conditional logistic regression models were fit for each cardiorespiratory and heat illness outcome, with the heat index threshold indicator variable as the exposure. These models were repeated for all thresholds. Also, the study population was stratified by age group, sex, and race to identify potential differences by sociodemographic factors.
 
 ### Heatwave analysis
 
-To understand the effect of prolonged elevated heat on cardiorespiratory and heat illness events among the Alaska population, two approaches were taken. The first evaluated the effect of acute heatwave, which was defined as a day on which the heat index exceeded the threshold and was immediately preceded by another day that exceeded the threshold. This definition of an acute heatwave was modeled using a binary variable, which was includedd in all conditional logistic regression models as the exposure of interest for each of the cardiorespiratory and heat illness outcomes across all thresholds.
+To understand the effect of prolonged elevated heat on cardiorespiratory and heat illness events among the Alaska population, two approaches were taken. The first evaluated the effect of acute heatwave, which was defined as a day on which the heat index exceeded the threshold and was immediately preceded by another day that exceeded the threshold. This definition of an acute heatwave was modeled using a binary variable, which was included in all conditional logistic regression models as the exposure of interest for each of the cardiorespiratory and heat illness outcomes across all thresholds.
 
 The second approach was to evaluate the effect of an ongoing heatwave. For this approach, a linear variable was included in all models that was the number of previous consecutive days above the threshold. In this analysis, the indicator variable for same-day elevated heat index above the threshold was also included. As was done with the threshold analysis, all heatwave models were first fit using the entire dataset; then, stratified analyses were conducted by race, sex, and age group.
 
@@ -28,9 +28,8 @@ The second approach was to evaluate the effect of an ongoing heatwave. For this 
 
 Available in the **/raw_data/** folder are the following files:
 1. **daily_88101_0819_NCORE_Garden_Parkgate_Butte.xlsx** - this Excel spreadsheet contains daily PM2.5 data from the Alaska Department of Environmental Conservation.
-2. **hospital.txt** - this text file has metadata for hospitals across Alaska
 
-Data request can be submitted to the Alaska Health Facilities Data Reporting Program [here](https://dhss.alaska.gov/dph/VitalStats/Pages/HFDR/default.aspx#:~:text=The%20Alaska%20Health%20Facilities%20Data,and%20the%20Alaska%20Outpatient%20Database.).
+Data requests can be submitted to the Alaska Health Facilities Data Reporting Program [here](https://dhss.alaska.gov/dph/VitalStats/Pages/HFDR/default.aspx#:~:text=The%20Alaska%20Health%20Facilities%20Data,and%20the%20Alaska%20Outpatient%20Database.).
 
 ## Scripts
 
